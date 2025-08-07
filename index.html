@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ISS Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+  <h1>International Space Station Tracker 🌍</h1>
+  <div id="map"></div>
+  <div id="info">
+    <p><strong>Latitude:</strong> <span id="lat">Loading...</span></p>
+    <p><strong>Longitude:</strong> <span id="lon">Loading...</span></p>
+    <p><strong>Altitude:</strong> <span id="alt">Loading...</span></p>
+    <p><strong>Velocity:</strong> <span id="vel">Loading...</span></p>
+    <p><strong>Astronauts on Board:</strong> <span id="astro">Loading...</span></p>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
